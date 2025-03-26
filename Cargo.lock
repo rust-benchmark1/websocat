@@ -378,7 +378,7 @@ version = "0.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aafcde04e90a5226a6443b7aabdb016ba2f8307c847d524724bd9b346dd1a2d3"
 dependencies = [
- "log 0.4.21",
+ "log 0.4.27",
 ]
 
 [[package]]
@@ -656,14 +656,14 @@ version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e19e8d5c34a3e0e2223db8e060f9e8264aeeb5c5fc64a4ee9965c062211c024b"
 dependencies = [
- "log 0.4.21",
+ "log 0.4.27",
 ]
 
 [[package]]
 name = "log"
-version = "0.4.21"
+version = "0.4.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90ed8c1e510134f979dbc4f070f87d4313098b704861a105fe34231c70a3901c"
+checksum = "13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94"
 
 [[package]]
 name = "matches"
@@ -722,7 +722,7 @@ dependencies = [
  "iovec",
  "kernel32-sys",
  "libc",
- "log 0.4.21",
+ "log 0.4.27",
  "miow 0.2.2",
  "net2",
  "slab",
@@ -735,7 +735,7 @@ version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0840c1c50fd55e521b247f949c241c9997709f23bd7f023b9762cd561e935656"
 dependencies = [
- "log 0.4.21",
+ "log 0.4.27",
  "mio",
  "miow 0.3.7",
  "winapi 0.3.9",
@@ -781,7 +781,7 @@ checksum = "07226173c32f2926027b63cce4bcd8076c3552846cbe7925f3aaffeac0a3b92e"
 dependencies = [
  "lazy_static",
  "libc",
- "log 0.4.21",
+ "log 0.4.27",
  "openssl",
  "openssl-probe",
  "openssl-sys",
@@ -1496,7 +1496,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5462b0f968c0457efe38fcd2df7e487096b992419e4f5337b06775a614bbda4b"
 dependencies = [
  "futures",
- "log 0.4.21",
+ "log 0.4.27",
  "tokio",
  "tokio-io",
 ]
@@ -1588,7 +1588,7 @@ checksum = "57fc868aae093479e3131e3d165c93b1c7474109d13c90ec0dda2a1bbfff0674"
 dependencies = [
  "bytes",
  "futures",
- "log 0.4.21",
+ "log 0.4.27",
 ]
 
 [[package]]
@@ -1614,7 +1614,7 @@ dependencies = [
  "futures",
  "lazy_static",
  "libc",
- "log 0.4.21",
+ "log 0.4.27",
  "mio",
  "mio-named-pipes",
  "tokio-io",
@@ -1632,7 +1632,7 @@ dependencies = [
  "crossbeam-utils 0.7.2",
  "futures",
  "lazy_static",
- "log 0.4.21",
+ "log 0.4.27",
  "mio",
  "num_cpus",
  "parking_lot 0.9.0",
@@ -1704,7 +1704,7 @@ dependencies = [
  "crossbeam-utils 0.7.2",
  "futures",
  "lazy_static",
- "log 0.4.21",
+ "log 0.4.27",
  "num_cpus",
  "slab",
  "tokio-executor",
@@ -1741,7 +1741,7 @@ checksum = "e2a0b10e610b39c38b031a2fcab08e4b82f16ece36504988dcbd81dbba650d82"
 dependencies = [
  "bytes",
  "futures",
- "log 0.4.21",
+ "log 0.4.27",
  "mio",
  "tokio-codec",
  "tokio-io",
@@ -1758,7 +1758,7 @@ dependencies = [
  "futures",
  "iovec",
  "libc",
- "log 0.4.21",
+ "log 0.4.27",
  "mio",
  "mio-uds",
  "tokio-codec",
@@ -1900,7 +1900,7 @@ dependencies = [
  "http-bytes",
  "hyper",
  "libc",
- "log 0.4.21",
+ "log 0.4.27",
  "native-tls",
  "net2",
  "openssl-probe",
